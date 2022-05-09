@@ -103,7 +103,7 @@ a {
 }
 
 button {
-    max-width: 96px;
+    width: 96px;
     border-radius: 5px;
     border: 0px;
     padding-top: 8px;
@@ -174,4 +174,50 @@ button {
     flex-flow: row nowrap;
     font-weight: bold;
     font-size: 24px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.left-side-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:50px;
+    padding-bottom:50px;
+    border-radius:10px;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.bot-main-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-2{
+    border: 2px solid white;
+    width: 120px;
+    height: 35px;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    color: white;
 }
