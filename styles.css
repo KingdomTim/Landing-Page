@@ -1,0 +1,9 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.footer,
+.top {
+    background-color: grey;
+}
