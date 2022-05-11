@@ -8,7 +8,7 @@ body {
 .header,
 .footer,
 .top {
-    background-color: #1F2937
+    background-color: #011936ff
 }
 
 .hero {
@@ -35,10 +35,12 @@ button,
     color: #f9faf8;
 }
 
-.random {
+.albums-title {
     font-size: 36px;
     font-weight:bolder;
     color: #1F2937;
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .middle-bottom {
@@ -47,12 +49,16 @@ button,
     flex-flow: column wrap;
     align-items: flex-end;
     padding: 100px;
+    gap: 10px;
+    background-color: #F9DC5CFF
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    align-self: center;
 }
 
 ul {
@@ -65,8 +71,20 @@ ul {
     color: #f9faf8
 }
 
+.nujabes {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.nujabes-art {
+    display: flex;
+    width: auto;
+    height: 300px;
+}
+
 .logo {
-    font-weight: bold;
+    display: flex;
 }
 
 a {
@@ -76,19 +94,18 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
     padding: 16px;
-    font-size: 24px;
     color: #f9faf8;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-height: 20px;
 }
 
 .top {
     display: flex;
     padding: 100px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
-    gap: 30px;
 }
 
 .left-side {
@@ -120,7 +137,6 @@ button {
     max-height: 200px;
     justify-content: center;
     align-items: center;
-    padding: 120px;
 }
 
 .middle-top {
@@ -130,28 +146,26 @@ button {
     flex: auto;
     align-items: center;
     padding: 100px;
+    background-color: #F4FFFDFF
 }
 
-.random {
+.albums {
     display: flex;
-    margin-bottom: 50px;
-}
-
-.boxes {
-    display: flex;
-    width: 800px;
+    width: 1000px;
     justify-content: space-around;
 }
 
-.box-1,
-.box-2,
-.box-3,
-.box-4 {
+.modal,
+.metaphorical,
+.hydeout,
+.hydeout-2,
+.hex,
+.spiritual {
     display: flex;
     width: 150px;
     height: 150px;
-    border: 1px solid lightblue;
     border-radius: 10px;
+    border: solid grey 1px;
 }
 
 .box-subtext {
@@ -159,17 +173,21 @@ button {
     justify-content: space-around;
     text-align:center;
     flex-flow: nowrap;
-    width: 800px;
+    width: 1000px;
 }
 
 .box-subtext-1,
 .box-subtext-2,
 .box-subtext-3,
-.box-subtext-4 {
+.box-subtext-4,
+.box-subtext-5,
+.box-subtext-6 {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: nowrap;
     flex: auto;
-    max-width: 150px;
+    font-weight: bold;
+    font-style: italic;
+    color: 
 }
 
 .thor {
@@ -178,12 +196,14 @@ button {
     flex-flow: row nowrap;
     font-weight: bold;
     font-size: 24px;
+    align-self: center;
 }
 
 .bottom {
     display: flex;
     justify-content: center;
     padding: 75px;
+    background-color: #ED254EFF;
 }
 
 .left-side-2 {
