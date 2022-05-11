@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
 
 .header,
@@ -126,8 +127,8 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     flex: auto;
+    align-items: center;
     padding: 100px;
 }
 
@@ -138,8 +139,8 @@ button {
 
 .boxes {
     display: flex;
-    gap: 90px;
-    
+    width: 800px;
+    justify-content: space-around;
 }
 
 .box-1,
@@ -155,8 +156,10 @@ button {
 
 .box-subtext {
     display: flex;
+    justify-content: space-around;
     text-align:center;
     flex-flow: nowrap;
+    width: 800px;
 }
 
 .box-subtext-1,
@@ -166,6 +169,7 @@ button {
     display: flex;
     flex-flow: wrap;
     flex: auto;
+    max-width: 150px;
 }
 
 .thor {
